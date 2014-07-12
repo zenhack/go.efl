@@ -28,4 +28,7 @@ func (o *Object) TextSet(text string) {
 	//
 	// C.elm_object_text_set((*C.Evas_Object)(o), cText)
 	C.elm_object_part_text_set((*C.Evas_Object)(o), nil, cText)
+
+	// FIXME: we're never freeing cText - I'm not totally sure what the memory-ownership
+	// rules are here; will have to investigate and then fix this.
 }
