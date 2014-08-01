@@ -1,7 +1,8 @@
 # Go bindings to the EFL.
 
-This repository contains a cgo-based binding to the [EFL][1]. This is
-very incomplete -- don't expect much just yet.
+This repository contains the beginnings of a cgo-based binding to the [EFL][1].
+This startred as a late night diversion, and I haven't really revisited it. Don't
+expect much, this is very incomplete.
 
 The `examples` directory contains some sample applications (well, just
 one so far).
